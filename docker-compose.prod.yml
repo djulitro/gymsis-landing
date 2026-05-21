@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  gymsis-landing:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: gymsis-landing
+    ports:
+      - "3001:80"
+    restart: unless-stopped

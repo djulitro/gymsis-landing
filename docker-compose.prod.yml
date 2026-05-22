@@ -7,5 +7,5 @@ services:
       dockerfile: Dockerfile
     container_name: gymsis-landing
     ports:
-      - "3001:80"
+      - "3002:80"
     restart: unless-stopped

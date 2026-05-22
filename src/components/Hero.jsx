@@ -9,21 +9,21 @@ export default function Hero() {
         {/* Badge */}
         <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-brand-50 border border-brand-100 text-brand-600 text-sm font-medium mb-6 animate-fade-in">
           <span className="w-2 h-2 rounded-full bg-brand-500 animate-pulse" />
-          Nuevo — Sistema listo para producción
+          Diseñado para gimnasios en Chile 🇨🇱
         </div>
 
-        {/* Headline */}
+        {/* H1 — keyword principal: "software para gimnasios" */}
         <h1 className="text-5xl sm:text-6xl lg:text-7xl font-black text-gray-900 leading-tight tracking-tight animate-fade-in-up">
-          Gestiona tu gimnasio
+          El software para gimnasios
           <br />
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-brand-500 to-sky-400">
-            sin complicaciones
+            que simplifica tu negocio
           </span>
         </h1>
 
-        {/* Sub */}
+        {/* Sub — keywords: control de membresías, sistema de gestión, Chile */}
         <p className="mt-6 text-xl text-gray-500 max-w-2xl mx-auto leading-relaxed animate-fade-in-up delay-100">
-          Gymsis centraliza en un solo lugar las membresías, la asistencia, la biometría, el inventario y los reportes de tu gimnasio. Desde el día uno.
+          Gymsis centraliza el control de membresías, asistencia, biometría, inventario y reportes en un solo sistema de gestión para gimnasios. Operando en Chile desde el día uno.
         </p>
 
         {/* CTAs */}
@@ -31,12 +31,14 @@ export default function Hero() {
           <a
             href="#contact"
             className="w-full sm:w-auto px-8 py-4 text-base font-bold bg-brand-500 hover:bg-brand-600 text-white rounded-2xl shadow-lg shadow-brand-200 hover:shadow-brand-300 transition-all duration-200"
+            aria-label="Solicitar demo gratuita de Gymsis"
           >
             Solicitar demo gratuita →
           </a>
           <a
             href="#features"
             className="w-full sm:w-auto px-8 py-4 text-base font-semibold text-gray-700 bg-white hover:bg-gray-50 border border-gray-200 rounded-2xl transition-colors"
+            aria-label="Ver características del software para gimnasios"
           >
             Ver características
           </a>
@@ -44,7 +46,7 @@ export default function Hero() {
 
         {/* Social proof */}
         <p className="mt-8 text-sm text-gray-400 animate-fade-in delay-300">
-          Sin tarjeta de crédito · Configuración en minutos · Soporte incluido
+          Sin tarjeta de crédito · Control de membresías desde día uno · Soporte en español
         </p>
 
         {/* Dashboard mockup */}

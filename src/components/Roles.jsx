@@ -50,12 +50,12 @@ export default function Roles() {
             Para quién es
           </span>
           <h2 className="text-4xl sm:text-5xl font-black text-gray-900">
-            Un sistema para cada rol,
+            Software para gimnasios con acceso
             <br />
-            <span className="text-brand-500">cada uno en su lugar</span>
+            <span className="text-brand-500">según el rol de cada usuario</span>
           </h2>
           <p className="mt-4 text-lg text-gray-500 max-w-2xl mx-auto">
-            Gymsis adapta la experiencia según el tipo de usuario. Cada rol ve exactamente lo que necesita.
+            Gymsis adapta la experiencia según el tipo de usuario. Administradores, staff y socios tienen acceso exactamente a lo que necesitan.
           </p>
         </div>
 

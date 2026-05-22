@@ -2,42 +2,42 @@ const FEATURES = [
   {
     emoji: '⚡',
     title: 'Configuración en minutos',
-    description: 'Configura tu gimnasio, agrega clientes y lanza tu primer plan de membresía el mismo día.',
+    description: 'Configura tu gimnasio, agrega clientes y lanza tu primer plan de membresía el mismo día. Sin instalaciones ni conocimiento técnico.',
   },
   {
     emoji: '📱',
-    title: 'Check-in',
-    description: 'El staff registra la entrada de cada cliente directamente desde el panel con un solo clic. Un check-in por día por cliente, con historial completo y estadísticas de días pico y horas de mayor afluencia.',
+    title: 'Control de asistencia',
+    description: 'El staff registra la entrada de cada socio directamente desde el panel con un solo clic. Historial completo, estadísticas de días pico y horas de mayor afluencia.',
   },
   {
     emoji: '📊',
     title: 'Reportes en tiempo real',
-    description: 'Ingresos, retención, asistencia, clientes nuevos y proyecciones disponibles cuando los necesitas.',
+    description: 'Ingresos, retención, asistencia, clientes nuevos y proyecciones disponibles cuando los necesitas. Sin exportar a Excel.',
   },
   {
     emoji: '🔔',
     title: 'Notificaciones automáticas',
-    description: 'El sistema te avisa cuando una membresía está por vencer o cuando un cliente lleva tiempo sin asistir.',
+    description: 'El sistema te avisa cuando una membresía está por vencer o cuando un cliente lleva tiempo sin asistir. Reduce la pérdida de socios.',
   },
   {
     emoji: '🔐',
     title: 'Datos privados y seguros',
-    description: 'Tu información, tus clientes y tus finanzas son completamente privados. Nadie más tiene acceso a los datos de tu gimnasio.',
+    description: 'Tu información, tus clientes y tus finanzas son completamente privados. Gymsis funciona en la nube con acceso restringido por organización.',
   },
   {
     emoji: '🔒',
-    title: 'Seguro y con roles',
-    description: 'Control de acceso por roles: Administrador, Staff y Cliente. Cada quien ve solo lo que le corresponde.',
+    title: 'Control de roles de acceso',
+    description: 'Administrador, Staff y Cliente. Cada usuario ve solo lo que le corresponde. Control total sobre los permisos de tu equipo.',
   },
   {
     emoji: '📈',
     title: 'Biometría y seguimiento',
-    description: 'Registra composición corporal, IMC, grasa visceral y objetivos. Muestra el progreso a tus clientes.',
+    description: 'Registra composición corporal, IMC, grasa visceral y objetivos de cada socio. Muéstrale su progreso en el portal del cliente.',
   },
   {
     emoji: '📦',
-    title: 'Inventario y ventas',
-    description: 'Controla stock, registra ventas con descuento automático y lleva historial de compras por cliente.',
+    title: 'Inventario y control de ventas',
+    description: 'Administra el stock de tu tienda. Registra ventas con descuento automático de inventario y lleva historial de compras por cliente.',
   },
 ]
 
@@ -51,13 +51,12 @@ export default function Features() {
             Por qué Gymsis
           </span>
           <h2 className="text-4xl sm:text-5xl font-black text-gray-900 leading-tight">
-            Todo lo que tu gimnasio necesita,
+            Todo lo que tu gimnasio necesita
             <br />
             <span className="text-brand-500">en un solo sistema</span>
           </h2>
           <p className="mt-4 text-lg text-gray-500 max-w-2xl mx-auto">
-            Diseñado para eliminar las hojas de cálculo, los cuadernos y los mensajes de WhatsApp.
-            Gymsis es el sistema operativo de tu gimnasio.
+            Gymsis reemplaza las planillas y los cuadernos. Sistema de gestión para gimnasios con control de membresías, asistencia y reportes — diseñado para Chile.
           </p>
         </div>
 
@@ -68,7 +67,7 @@ export default function Features() {
               key={f.title}
               className="group p-6 rounded-2xl border border-gray-100 hover:border-brand-200 hover:shadow-lg hover:shadow-brand-50 transition-all duration-300"
             >
-              <div className="w-12 h-12 rounded-2xl bg-brand-50 flex items-center justify-center text-2xl mb-4 group-hover:bg-brand-100 transition-colors">
+              <div className="w-12 h-12 rounded-2xl bg-brand-50 flex items-center justify-center text-2xl mb-4 group-hover:bg-brand-100 transition-colors" aria-hidden="true">
                 {f.emoji}
               </div>
               <h3 className="font-bold text-gray-900 mb-2">{f.title}</h3>

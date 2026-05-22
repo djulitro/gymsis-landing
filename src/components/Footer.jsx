@@ -32,12 +32,15 @@ export default function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
           {/* Brand */}
           <div>
-            <a href="#" className="flex items-center gap-2 font-bold text-xl text-white mb-3">
-              <span className="text-2xl">🏋️</span>
+            <a href="#" className="flex items-center gap-2 font-bold text-xl text-white mb-3" aria-label="Gymsis - Software para gimnasios en Chile">
+              <span className="text-2xl" aria-hidden="true">🏋️</span>
               Gym<span className="text-brand-400">sis</span>
             </a>
-            <p className="text-sm leading-relaxed">
-              Sistema integral de gestión para gimnasios. Membresías, asistencia, biometría, inventario y reportes.
+            <p className="text-sm leading-relaxed mb-3">
+              Software para gimnasios en Chile. Sistema de gestión de membresías, asistencia, biometría, inventario y reportes.
+            </p>
+            <p className="text-xs text-gray-500">
+              🇨🇱 Chile · <a href="mailto:hola@gymsis.com" className="hover:text-white transition-colors">hola@gymsis.com</a>
             </p>
           </div>
 
@@ -65,10 +68,10 @@ export default function Footer() {
 
         <div className="border-t border-gray-800 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-xs text-gray-500">
-            © {new Date().getFullYear()} Gymsis. Todos los derechos reservados.
+            © {new Date().getFullYear()} Gymsis — Software para gimnasios en Chile. Todos los derechos reservados.
           </p>
           <p className="text-xs text-gray-500">
-            Hecho con ❤️ para el mundo fitness
+            Hecho con ❤️ para el mundo fitness chileno
           </p>
         </div>
       </div>

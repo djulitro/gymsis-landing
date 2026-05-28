@@ -1,13 +1,165 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es-CL">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Gymsis — Sistema de gestión integral para gimnasios. Controla membresías, asistencia, biometría, inventario y reportes desde un solo lugar." />
+
+    <!-- ═══════════════════════════════════════════════
+         SEO PRIMARIO
+    ═══════════════════════════════════════════════ -->
+    <title>Gymsis — Software para Gimnasios en Chile | Control de Membresías y Asistencia</title>
+    <meta name="description" content="Gymsis es el software para gimnasios en Chile. Sistema de gestión integral para controlar membresías, asistencia, biometría, inventario y reportes desde un solo lugar. Prueba gratis desde $19.990/mes." />
+    <meta name="keywords" content="software para gimnasios, sistema para gimnasios chile, control de membresías gimnasio, app para gimnasios, sistema de gestión para gimnasios, software gym chile, administrar gimnasio, control de pagos gimnasio, gestión membresías gimnasio" />
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <link rel="canonical" href="https://gymsis.cl/" />
+
+    <!-- Geo targeting Chile -->
+    <meta name="geo.region" content="CL" />
+    <meta name="geo.country" content="Chile" />
+    <meta name="language" content="es" />
+    <meta name="theme-color" content="#0ea5e9" />
+
+    <!-- ═══════════════════════════════════════════════
+         OPEN GRAPH
+    ═══════════════════════════════════════════════ -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://gymsis.cl/" />
+    <meta property="og:site_name" content="Gymsis" />
+    <meta property="og:title" content="Gymsis — Software para Gimnasios en Chile | Control de Membresías" />
+    <meta property="og:description" content="Sistema de gestión integral para gimnasios. Controla membresías, asistencia, biometría, inventario y reportes desde un solo lugar. Prueba gratis." />
+    <meta property="og:locale" content="es_CL" />
+    <meta property="og:image" content="https://gymsis.cl/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Gymsis — Software para Gimnasios en Chile" />
+
+    <!-- ═══════════════════════════════════════════════
+         TWITTER CARDS
+    ═══════════════════════════════════════════════ -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Gymsis — Software para Gimnasios en Chile" />
+    <meta name="twitter:description" content="Sistema de gestión integral para gimnasios. Controla membresías, asistencia, biometría e inventario desde un solo lugar." />
+    <meta name="twitter:image" content="https://gymsis.cl/og-image.jpg" />
+
+    <!-- ═══════════════════════════════════════════════
+         FUENTES — preconnect crítico para LCP
+    ═══════════════════════════════════════════════ -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
-    <title>Gymsis — Gestión inteligente para tu gimnasio</title>
+
+    <!-- Favicon (coloca favicon.svg en /public/) -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- ═══════════════════════════════════════════════
+         SCHEMA.ORG JSON-LD
+         SoftwareApplication + WebSite + FAQPage
+         → Rich Results, Featured Snippets, AI Overview
+    ═══════════════════════════════════════════════ -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "SoftwareApplication",
+          "@id": "https://gymsis.cl/#software",
+          "name": "Gymsis",
+          "alternateName": "Gymsis - Software para Gimnasios Chile",
+          "applicationCategory": "BusinessApplication",
+          "applicationSubCategory": "Gym Management Software",
+          "operatingSystem": "Web, iOS, Android",
+          "description": "Software para gimnasios en Chile. Sistema de gestión integral que centraliza el control de membresías, asistencia, biometría, inventario y reportes en un solo lugar.",
+          "url": "https://gymsis.cl",
+          "inLanguage": "es",
+          "offers": {
+            "@type": "AggregateOffer",
+            "priceCurrency": "CLP",
+            "lowPrice": "19990",
+            "highPrice": "39990",
+            "offerCount": "2"
+          },
+          "featureList": [
+            "Control de membresías",
+            "Registro de asistencia",
+            "Seguimiento biométrico",
+            "Control de inventario",
+            "Reportes y analítica",
+            "Portal del cliente",
+            "Notificaciones automáticas de vencimiento",
+            "Control de acceso por roles"
+          ],
+          "provider": {
+            "@type": "Organization",
+            "@id": "https://gymsis.cl/#organization",
+            "name": "Gymsis",
+            "url": "https://gymsis.cl",
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "email": "hola@gymsis.com",
+              "contactType": "customer support",
+              "availableLanguage": "Spanish",
+              "areaServed": "CL"
+            }
+          }
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://gymsis.cl/#website",
+          "url": "https://gymsis.cl",
+          "name": "Gymsis",
+          "description": "Software para gimnasios en Chile — Sistema de gestión de membresías y asistencia",
+          "inLanguage": "es",
+          "publisher": { "@id": "https://gymsis.cl/#organization" }
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://gymsis.cl/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "¿Cuánto tiempo toma configurar Gymsis?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "La configuración inicial lleva menos de 30 minutos. Configuras tu gimnasio, defines tus planes de membresía, importas tus clientes y ya estás operando."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "¿Gymsis funciona para gimnasios pequeños en Chile?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Sí. Gymsis está diseñado para gimnasios de todos los tamaños en Chile. El plan Starter parte desde $19.990/mes y es ideal para empezar a organizar tu negocio desde el día uno."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "¿Puedo controlar los pagos y membresías vencidas automáticamente?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Sí. El sistema marca automáticamente las membresías vencidas cada noche y envía notificaciones de alerta antes del vencimiento para que puedas gestionar las renovaciones a tiempo."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "¿Es un software para gimnasios en la nube?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Sí. Gymsis es 100% web y en la nube. No necesitas instalar nada. Accedes desde cualquier computador, tablet o celular con conexión a internet."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "¿Hay contrato de permanencia?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "No. Gymsis es mes a mes. Puedes cancelar en cualquier momento sin penalidades."
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
   </head>
   <body>
     <div id="root"></div>

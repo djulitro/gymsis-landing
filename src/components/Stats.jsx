@@ -1,13 +1,13 @@
 const STATS = [
-  { value: '10+', label: 'Módulos integrados'     },
-  { value: '3',   label: 'Roles de usuario'        },
-  { value: '∞',   label: 'Clientes soportados'     },
-  { value: '24/7', label: 'Disponibilidad'         },
+  { value: '6',    label: 'Módulos integrados'       },
+  { value: '3',    label: 'Roles de usuario'          },
+  { value: '<30m', label: 'Para configurar tu gym'    },
+  { value: '24/7', label: 'Disponibilidad en la nube' },
 ]
 
 export default function Stats() {
   return (
-    <section className="py-16 bg-gradient-to-r from-brand-600 to-brand-500">
+    <section id="stats" className="py-16 bg-gradient-to-r from-brand-600 to-brand-500" aria-label="Estadísticas de Gymsis">
       <div className="max-w-5xl mx-auto px-4 sm:px-6">
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-8 text-center text-white">
           {STATS.map((s) => (

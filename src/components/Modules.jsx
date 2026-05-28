@@ -38,15 +38,15 @@ const MODULES = [
     icon: '✅',
     label: 'Asistencia',
     color: 'bg-violet-500',
-    title: 'Asistencia sin fricciones',
+    title: 'Control de asistencia sin fricciones',
     description:
-      'El staff registra la entrada de cada cliente directamente desde el panel con un solo clic. Un check-in por día por cliente, con historial completo y estadísticas de días pico y horas de mayor afluencia.',
+      'El staff registra la entrada de cada socio directamente desde el panel con un solo clic. Un check-in por día por cliente, con historial completo y estadísticas de días y horas pico.',
     bullets: [
       'Check-in manual desde el panel del staff',
-      'Check-in manual desde el panel',
       'Calendario visual en el portal del cliente',
       'Reporte de días y horas pico',
-      'Detección de clientes sin asistencia reciente',
+      'Detección de socios sin asistencia reciente',
+      'Historial completo de entradas',
     ],
   },
   {
@@ -112,9 +112,9 @@ export default function Modules() {
             Módulos
           </span>
           <h2 className="text-4xl sm:text-5xl font-black text-gray-900">
-            Cada módulo diseñado
+            Sistema de gestión para gimnasios:
             <br />
-            para el día a día del gimnasio
+            <span className="text-brand-500">cada módulo para el día a día</span>
           </h2>
         </div>
 

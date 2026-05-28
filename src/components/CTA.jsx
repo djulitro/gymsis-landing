@@ -10,12 +10,12 @@ export default function CTA() {
           <div className="relative">
             <div className="text-5xl mb-4">🏋️</div>
             <h2 className="text-3xl sm:text-4xl font-black text-white mb-4 leading-tight">
-              Empieza hoy. Tu gimnasio
+              Empieza hoy con el software para
               <br />
-              merece una mejor herramienta.
+              gimnasios que tu negocio merece.
             </h2>
             <p className="text-brand-100 text-lg mb-8 max-w-xl mx-auto">
-              Sin tarjeta de crédito, sin contratos. Solo solicita tu demo y te mostramos cómo funciona en tu gimnasio.
+              Sin tarjeta de crédito, sin contratos. Solicita tu demo y te mostramos cómo Gymsis mejora el control de membresías y la gestión de tu gimnasio en Chile.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <a

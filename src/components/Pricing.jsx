@@ -60,11 +60,11 @@ export default function Pricing() {
             Precios
           </span>
           <h2 className="text-4xl sm:text-5xl font-black text-gray-900">
-            Planes simples,
+            Precios simples para tu gimnasio,
             <span className="text-brand-500"> sin sorpresas</span>
           </h2>
           <p className="mt-4 text-lg text-gray-500 max-w-xl mx-auto">
-            Elige el plan que mejor se adapte a tu gimnasio. Sin contratos de permanencia.
+            Software para gimnasios en Chile desde $19.990/mes. Sin contratos de permanencia ni letra chica.
           </p>
         </div>
 

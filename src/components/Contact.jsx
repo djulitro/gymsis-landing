@@ -22,12 +22,12 @@ export default function Contact() {
               Contacto
             </span>
             <h2 className="text-4xl font-black text-gray-900 mb-4">
-              ¿Listo para transformar
+              ¿Listo para modernizar
               <br />
-              <span className="text-brand-500">tu gimnasio?</span>
+              <span className="text-brand-500">la gestión de tu gimnasio?</span>
             </h2>
             <p className="text-gray-500 leading-relaxed mb-8">
-              Completa el formulario y en menos de 24 horas nos ponemos en contacto para mostrarte cómo Gymsis puede funcionar para tu negocio.
+              Completa el formulario y en menos de 24 horas te contactamos para mostrarte cómo Gymsis puede mejorar el control de membresías y la administración de tu gimnasio en Chile.
             </p>
 
             <div className="space-y-5">

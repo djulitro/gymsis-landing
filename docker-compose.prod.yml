@@ -5,7 +5,9 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: gymsis-landing
+    container_name: gymsis-landing-${ENV:-prod}
+    environment:
+      - ENV=${ENV:-prod}
     ports:
-      - "3002:80"
+      - "${PORT:-3002}:80"
     restart: unless-stopped

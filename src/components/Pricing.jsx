@@ -11,6 +11,7 @@ const PLANS = [
       'Inventario y ventas',
       'Dashboard con indicadores clave',
       'Biometría y seguimiento corporal',
+      'Rutinas de entrenamiento',
       'Reporteria básica',
       'Soporte por correo',
     ],

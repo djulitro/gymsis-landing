@@ -39,6 +39,11 @@ const FEATURES = [
     title: 'Inventario y control de ventas',
     description: 'Administra el stock de tu tienda. Registra ventas con descuento automático de inventario y lleva historial de compras por cliente.',
   },
+  {
+    emoji: '🏋️',
+    title: 'Rutinas de entrenamiento',
+    description: 'Crea plantillas de ejercicios, asígnalas a tus clientes y mide su cumplimiento. Los clientes ven su rutina diaria en el portal y la app móvil.',
+  },
 ]
 
 export default function Features() {

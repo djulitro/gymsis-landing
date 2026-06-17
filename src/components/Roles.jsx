@@ -36,6 +36,7 @@ const ROLES = [
       'Calendario de asistencias',
       'Historial de compras y suscripciones',
       'Progreso corporal y biometría',
+      'Rutinas de entrenamiento y progreso',
     ],
   },
 ]

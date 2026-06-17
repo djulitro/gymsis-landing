@@ -97,6 +97,23 @@ const MODULES = [
       'Clientes nuevos y crecimiento mensual',
     ],
   },
+  {
+    id: 'training',
+    icon: '🏋️',
+    label: 'Entrenamiento',
+    color: 'bg-orange-500',
+    title: 'Rutinas y plan de entrenamiento',
+    description:
+      'Crea plantillas de rutinas, asígnalas a tus clientes y permite que registren su progreso desde el portal o la app móvil.',
+    bullets: [
+      'Catálogo de ejercicios por grupo muscular',
+      'Plantillas de rutinas multi-día',
+      'Asignación de rutinas a clientes',
+      'Seguimiento de cumplimiento por cliente',
+      'Portal del cliente con rutina diaria',
+      'App móvil para registrar ejercicios',
+    ],
+  },
 ]
 
 export default function Modules() {

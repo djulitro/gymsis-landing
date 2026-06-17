@@ -1,5 +1,5 @@
 const STATS = [
-  { value: '6',    label: 'Módulos integrados'       },
+  { value: '7',    label: 'Módulos integrados'       },
   { value: '3',    label: 'Roles de usuario'          },
   { value: '<30m', label: 'Para configurar tu gym'    },
   { value: '24/7', label: 'Disponibilidad en la nube' },

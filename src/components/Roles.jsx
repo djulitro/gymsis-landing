@@ -8,6 +8,7 @@ const ROLES = [
     access: [
       'Dashboard con indicadores del negocio',
       'Clientes, membresías y biometría',
+      'Clases, trainers y horarios',
       'Inventario, ventas y reportes',
       'Notificaciones y seguimiento de retención',
     ],
@@ -21,8 +22,23 @@ const ROLES = [
     access: [
       'Dashboard general',
       'Clientes y asistencia',
+      'Gestión de clases y horarios',
       'Inventario (sin eliminar)',
       'Sin acceso a reportes ni ventas',
+    ],
+  },
+  {
+    emoji: '🏋️',
+    title: 'Trainer',
+    badge: 'bg-pink-100 text-pink-700',
+    description:
+      'Instructor con acceso a su dashboard, horarios y clases asignadas. Puede cancelar horarios con notificación al admin, pero no editar ni eliminar clases.',
+    access: [
+      'Dashboard personal con clases de hoy',
+      'Calendario semanal de turnos',
+      'Próximas clases asignadas',
+      'Cancelación de horarios con motivo',
+      'Sin acceso a edición, eliminación ni inscripción masiva',
     ],
   },
   {
@@ -33,7 +49,8 @@ const ROLES = [
       'El cliente final accede a su propio portal con información de su membresía, asistencias, historial de compras y composición corporal.',
     access: [
       'Estado y plan de membresía activo',
-      'Calendario de asistencias',
+      'Calendario de asistencias y clases',
+      'Reserva de clases grupales y personales',
       'Historial de compras y suscripciones',
       'Progreso corporal y biometría',
       'Rutinas de entrenamiento y progreso',
@@ -56,12 +73,12 @@ export default function Roles() {
             <span className="text-brand-500">según el rol de cada usuario</span>
           </h2>
           <p className="mt-4 text-lg text-gray-500 max-w-2xl mx-auto">
-            Gymsis adapta la experiencia según el tipo de usuario. Administradores, staff y socios tienen acceso exactamente a lo que necesitan.
+            Gymsis adapta la experiencia según el tipo de usuario. Administradores, staff, trainers y socios tienen acceso exactamente a lo que necesitan.
           </p>
         </div>
 
         {/* Cards */}
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {ROLES.map((r) => (
             <div
               key={r.title}

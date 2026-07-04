@@ -8,6 +8,14 @@ const FAQS = [
     a: 'Sí. Gymsis está diseñado para gimnasios de todos los tamaños en Chile. El plan Starter parte desde $19.990/mes y es ideal para empezar a organizar tu negocio con un sistema profesional desde el día uno.',
   },
   {
+    q: '¿Puedo gestionar clases grupales y entrenamiento personal?',
+    a: 'Sí. Gymsis incluye un módulo completo de clases con calendario visual, horarios configurables por trainer, control de cupos, reservas de clientes con lista de espera, y check-in inline. Soporta tanto clases grupales como sesiones personales.',
+  },
+  {
+    q: '¿Cómo funcionan los trainers en el sistema?',
+    a: 'Los trainers tienen su propio dashboard con las clases del día, calendario semanal de turnos y próximas clases. Pueden cancelar horarios con un motivo que se notifica al administrador, pero no pueden editar ni eliminar clases.',
+  },
+  {
     q: '¿Puedo controlar los pagos y membresías vencidas automáticamente?',
     a: 'Sí. El sistema marca automáticamente las membresías vencidas cada noche. Además puedes configurar notificaciones de alerta antes del vencimiento para gestionar renovaciones y no perder socios.',
   },
@@ -25,7 +33,7 @@ const FAQS = [
   },
   {
     q: '¿Los clientes pueden ver su información?',
-    a: 'Sí. Puedes crear una cuenta de acceso para cada cliente. Ellos ingresan a un portal propio donde ven su plan, historial de asistencias, compras y composición corporal.',
+    a: 'Sí. Puedes crear una cuenta de acceso para cada cliente. Ellos ingresan a un portal propio donde ven su plan, historial de asistencias, clases reservadas, compras y composición corporal.',
   },
   {
     q: '¿Hay contrato de permanencia?',

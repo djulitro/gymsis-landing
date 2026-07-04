@@ -37,7 +37,7 @@ export default function Footer() {
               Gym<span className="text-brand-400">sis</span>
             </a>
             <p className="text-sm leading-relaxed mb-3">
-              Software para gimnasios en Chile. Sistema de gestión de membresías, asistencia, biometría, inventario y reportes.
+              Software para gimnasios en Chile. Sistema de gestión de membresías, clases, asistencia, biometría, inventario y reportes.
             </p>
             <p className="text-xs text-gray-500">
               🇨🇱 Chile · <a href="mailto:hola@gymsis.com" className="hover:text-white transition-colors">hola@gymsis.com</a>

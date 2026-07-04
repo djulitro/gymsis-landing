@@ -10,6 +10,11 @@ const FEATURES = [
     description: 'El staff registra la entrada de cada socio directamente desde el panel con un solo clic. Historial completo, estadísticas de días pico y horas de mayor afluencia.',
   },
   {
+    emoji: '🗓️',
+    title: 'Clases y entrenamiento personal',
+    description: 'Gestiona clases grupales y sesiones personales con calendario visual, horarios de trainers, control de cupos y reservas de clientes.',
+  },
+  {
     emoji: '📊',
     title: 'Reportes en tiempo real',
     description: 'Ingresos, retención, asistencia, clientes nuevos y proyecciones disponibles cuando los necesitas. Sin exportar a Excel.',
@@ -27,7 +32,7 @@ const FEATURES = [
   {
     emoji: '🔒',
     title: 'Control de roles de acceso',
-    description: 'Administrador, Staff y Cliente. Cada usuario ve solo lo que le corresponde. Control total sobre los permisos de tu equipo.',
+    description: 'Administrador, Staff, Trainer y Cliente. Cada usuario ve solo lo que le corresponde. Control total sobre los permisos de tu equipo.',
   },
   {
     emoji: '📈',
@@ -66,7 +71,7 @@ export default function Features() {
         </div>
 
         {/* Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6">
           {FEATURES.map((f) => (
             <div
               key={f.title}

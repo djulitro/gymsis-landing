@@ -34,6 +34,25 @@ const MODULES = [
     ],
   },
   {
+    id: 'classes',
+    icon: '🗓️',
+    label: 'Clases',
+    color: 'bg-pink-500',
+    title: 'Clases grupales y entrenamiento personal',
+    description:
+      'Gestiona clases grupales y sesiones personales con calendario visual, horarios de trainers, control de cupos y reservas de clientes. Notificaciones automáticas por email.',
+    bullets: [
+      'Calendario visual con clases pasadas y futuras',
+      'Horarios configurables por trainer',
+      'Clases grupales y personales',
+      'Reservas de clientes con lista de espera',
+      'Check-in inline con un clic',
+      'Notificaciones por email al crear/cancelar horarios',
+      'Control de cupos y capacidad máxima',
+      'Asociación con planes de suscripción',
+    ],
+  },
+  {
     id: 'attendance',
     icon: '✅',
     label: 'Asistencia',

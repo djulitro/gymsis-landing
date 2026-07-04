@@ -23,7 +23,7 @@ export default function Hero() {
 
         {/* Sub — keywords: control de membresías, sistema de gestión, Chile */}
         <p className="mt-6 text-xl text-gray-500 max-w-2xl mx-auto leading-relaxed animate-fade-in-up delay-100">
-          Gymsis centraliza el control de membresías, asistencia, biometría, inventario y reportes en un solo sistema de gestión para gimnasios. Operando en Chile desde el día uno.
+          Gymsis centraliza el control de membresías, clases, asistencia, biometría, inventario y reportes en un solo sistema de gestión para gimnasios. Operando en Chile desde el día uno.
         </p>
 
         {/* CTAs */}

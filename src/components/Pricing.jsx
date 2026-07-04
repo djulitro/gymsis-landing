@@ -8,6 +8,7 @@ const PLANS = [
     features: [
       'Hasta 25 clientes',
       'Clientes, membresías y asistencia',
+      'Clases grupales y entrenamiento personal',
       'Inventario y ventas',
       'Dashboard con indicadores clave',
       'Biometría y seguimiento corporal',
@@ -29,6 +30,7 @@ const PLANS = [
       'Todo lo de Starter',
       'Reportes y analítica avanzada',
       'Notificaciones de vencimiento',
+      'Gestión de trainers y horarios',
       'Soporte prioritario',
     ],
     cta: 'Empezar con Pro',

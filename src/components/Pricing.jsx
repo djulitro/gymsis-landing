@@ -53,7 +53,7 @@ const PLANS = [
   },
 ]
 
-export default function Pricing() {
+export default function Pricing({ onSignup }) {
   return (
     <section id="pricing" className="py-24 bg-gray-50">
       <div className="max-w-5xl mx-auto px-4 sm:px-6">
@@ -117,17 +117,17 @@ export default function Pricing() {
                 ))}
               </ul>
 
-              <a
-                href="#contact"
+              <button
+                onClick={onSignup}
                 className={[
-                  'block text-center py-3 px-6 rounded-2xl text-sm font-bold transition-all duration-200',
+                  'block w-full text-center py-3 px-6 rounded-2xl text-sm font-bold transition-all duration-200',
                   p.highlight
                     ? 'bg-white text-brand-600 hover:bg-brand-50'
                     : 'bg-brand-500 text-white hover:bg-brand-600 shadow-sm',
                 ].join(' ')}
               >
                 {p.cta}
-              </a>
+              </button>
             </div>
           ))}
         </div>

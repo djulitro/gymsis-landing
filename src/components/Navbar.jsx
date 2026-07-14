@@ -7,7 +7,7 @@ const NAV_LINKS = [
   { label: 'Precios',         href: '#pricing'  },
 ]
 
-export default function Navbar() {
+export default function Navbar({ onSignup }) {
   const [open, setOpen] = useState(false)
 
   return (
@@ -40,12 +40,12 @@ export default function Navbar() {
           >
             Contactar
           </a>
-          <a
-            href="#pricing"
+          <button
+            onClick={onSignup}
             className="px-4 py-2 text-sm font-semibold bg-brand-500 hover:bg-brand-600 text-white rounded-xl transition-colors shadow-sm"
           >
-            Empezar gratis
-          </a>
+            Registrarse gratis
+          </button>
         </div>
 
         {/* Mobile hamburger */}
@@ -71,13 +71,12 @@ export default function Navbar() {
               {l.label}
             </a>
           ))}
-          <a
-            href="#contact"
+          <button
+            onClick={() => { onSignup(); setOpen(false); }}
             className="block mt-3 py-2.5 px-4 text-center text-sm font-semibold bg-brand-500 text-white rounded-xl"
-            onClick={() => setOpen(false)}
           >
-            Empezar gratis
-          </a>
+            Registrarse gratis
+          </button>
         </div>
       )}
     </header>

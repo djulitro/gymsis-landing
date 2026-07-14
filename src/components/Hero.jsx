@@ -1,4 +1,4 @@
-export default function Hero() {
+export default function Hero({ onSignup }) {
   return (
     <section className="relative overflow-hidden bg-gradient-to-b from-brand-50 via-white to-white pt-32 pb-24">
       {/* Background blobs */}
@@ -28,17 +28,15 @@ export default function Hero() {
 
         {/* CTAs */}
         <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4 animate-fade-in-up delay-200">
-          <a
-            href="#contact"
+          <button
+            onClick={onSignup}
             className="w-full sm:w-auto px-8 py-4 text-base font-bold bg-brand-500 hover:bg-brand-600 text-white rounded-2xl shadow-lg shadow-brand-200 hover:shadow-brand-300 transition-all duration-200"
-            aria-label="Solicitar demo gratuita de Gymsis"
           >
-            Solicitar demo gratuita →
-          </a>
+            Empezar gratis por 30 días →
+          </button>
           <a
             href="#features"
             className="w-full sm:w-auto px-8 py-4 text-base font-semibold text-gray-700 bg-white hover:bg-gray-50 border border-gray-200 rounded-2xl transition-colors"
-            aria-label="Ver características del software para gimnasios"
           >
             Ver características
           </a>
@@ -46,7 +44,7 @@ export default function Hero() {
 
         {/* Social proof */}
         <p className="mt-8 text-sm text-gray-400 animate-fade-in delay-300">
-          Sin tarjeta de crédito · Control de membresías desde día uno · Soporte en español
+          Sin tarjeta de crédito · 30 días gratis · Soporte en español
         </p>
 
         {/* Dashboard mockup */}
